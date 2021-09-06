@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name('homepage');
+
+Route::get('/products', function () {
+
+    $comics = config('comics');
+    $data = ['fumetti' => $comics];
+
+    return view('prodotti', $data);
+})->name('pagina-prodotti');
+
+Route::get('/footer', function () {
+    return view('footer');
+})->name('footer');
+
