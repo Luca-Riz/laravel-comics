@@ -10,7 +10,6 @@
 
 .logo, .main-menu, .search {
   display: inline-block;
-  border: 1px solid yellowgreen;
 }
 
 nav ul {
