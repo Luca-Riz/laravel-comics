@@ -1,5 +1,12 @@
 <header>
-  <div class="menu">
+  <div class="top">
+    <div class="container container-top">
+      <div>DC power visa</div>
+      <div>Additional DC site</div>
+    </div>
+  </div>
+
+  <div class="menu container">
     <div class="logo">
       <img src="{{asset('img/dc-logo.png')}}" alt="logo-dc">
     </div>
